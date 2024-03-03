@@ -1,0 +1,4 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/.hatch/template-python-cli/bin/python",
+  "mypy-type-checker.importStrategy": "fromEnvironment"
+}

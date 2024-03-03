@@ -1,0 +1,10 @@
+.DS_Store
+.ruff_cache/
+dist/
+__pycache__/
+.hatch/
+
+# https://github.com/python/mypy/blob/v1.8.0/docs/source/config_file.rst#incremental-mode
+.mypy_cache/
+
+hatch-cli-demo/
