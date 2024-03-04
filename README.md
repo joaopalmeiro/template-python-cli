@@ -5,6 +5,36 @@
 
 Opinionated Python template for new CLIs.
 
+- [Source code](https://github.com/joaopalmeiro/template-python-cli)
+- [PyPI package](https://pypi.org/project/template-python-cli/)
+
+## Getting Started
+
+1. Go to or create the package folder.
+2. Get the template files:
+
+```bash
+npx degit github:joaopalmeiro/template-python-cli
+```
+
+or
+
+```bash
+npx degit github:joaopalmeiro/template-python-cli --force
+```
+
+3. Search for `template-python-cli` and replace it with the package name.
+4. Search for `template_python_cli` and replace it with the underscored version of the package name.
+5. Search for `Opinionated Python template for new CLIs.` and replace it with the (short) package description.
+6. Search for `João Palmeiro` and replace it with the author's name.
+7. Search for `joaopalmeiro@proton.me` and replace it with the author's email address.
+8. Open the [pyproject.toml](pyproject.toml) file and add the package-specific dependencies.
+9. Update the `Source code` link at the top to the package repository link (if necessary).
+10. Change `GitHub` in the [`Deployment` section](#deployment) to `GitLab` or `Codeberg` and update the link to the corresponding Tags page (if necessary).
+11. Update the `Issues` and `Source` fields in the [pyproject.toml](pyproject.toml) with their respective repository-related links (if necessary).
+12. Delete the [TEMPLATE.md](TEMPLATE.md) file.
+13. Delete the [`Getting Started` section](#getting-started).
+
 ## Development
 
 Install [pyenv](https://github.com/pyenv/pyenv) (if necessary).
