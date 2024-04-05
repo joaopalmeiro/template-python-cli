@@ -35,6 +35,18 @@ npx degit github:joaopalmeiro/template-python-cli --force
 12. Delete the [TEMPLATE.md](TEMPLATE.md) file.
 13. Delete the [`Getting Started`](#getting-started) section.
 
+## Usage
+
+### Via [pipx](https://github.com/pypa/pipx)
+
+```bash
+pipx run template-python-cli --help
+```
+
+```bash
+pipx run template-python-cli
+```
+
 ## Development
 
 Install [pyenv](https://github.com/pyenv/pyenv) (if necessary).
