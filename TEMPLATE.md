@@ -5,6 +5,7 @@
   - `Python Debugger: Clear Cache and Reload Window`
 - https://packaging.python.org/en/latest/discussions/distribution-package-vs-import-package/#how-do-distribution-package-names-and-import-package-names-compare:
   - "hyphens `-` or underscores `_`"
+- https://textual.textualize.io/how-to/package-with-hatch/
 
 ## Commands
 

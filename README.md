@@ -84,6 +84,10 @@ hatch dep show table
 ```
 
 ```bash
+hatch run pip list
+```
+
+```bash
 hatch run template-python-cli --help
 ```
 
