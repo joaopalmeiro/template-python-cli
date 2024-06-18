@@ -23,7 +23,7 @@ or
 npx degit github:joaopalmeiro/template-python-cli --force
 ```
 
-3. Search for `template-python-cli` and replace it with the package name.
+3. Search for `template-python-cli` and replace it with the package name. Ignore the template repository URL in the [NOTES.md](NOTES.md) file.
 4. Search for `template_python_cli` and replace it with the underscored version of the package name.
 5. Search for `Opinionated Python template for new CLIs.` and replace it with the (short) package description.
 6. Search for `João Palmeiro` and replace it with the author's name.
