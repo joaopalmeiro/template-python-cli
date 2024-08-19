@@ -12,7 +12,7 @@ Opinionated Python template for new CLIs.
 
 ## Getting Started
 
-1. Go to or create the package folder.
+1. Go to or create the CLI folder.
 2. Get the template files:
 
 ```bash
@@ -25,17 +25,18 @@ or
 npx degit github:joaopalmeiro/template-python-cli --force
 ```
 
-3. Search for `template-python-cli` and replace it with the package name. Ignore the template repository URL in the [NOTES.md](NOTES.md) file.
-4. Search for `template_python_cli` and replace it with the underscored version of the package name.
-5. Search for `Opinionated Python template for new CLIs.` and replace it with the (short) package description.
+3. Search for `template-python-cli` and replace it with the CLI name. Ignore the template repository URL in the [NOTES.md](NOTES.md) file.
+4. Search for `template_python_cli` and replace it with the underscored version of the CLI name.
+5. Search for `Opinionated Python template for new CLIs.` and replace it with the (short) CLI description.
 6. Search for `João Palmeiro` and replace it with the author's name.
 7. Search for `joaopalmeiro@proton.me` and replace it with the author's email address.
-8. Open the [pyproject.toml](pyproject.toml) file and add the package-specific dependencies. See the [`Dependency configuration`](https://hatch.pypa.io/latest/config/dependency/) and [`Environment configuration`](https://hatch.pypa.io/latest/config/environment/overview/#dependencies) pages in the Hatch documentation for more information (if necessary).
-9. Update the `Source code` link at the top to the package repository link (if necessary).
+8. Open the [pyproject.toml](pyproject.toml) file and add the CLI-specific dependencies. See the [`Dependency configuration`](https://hatch.pypa.io/latest/config/dependency/) and [`Environment configuration`](https://hatch.pypa.io/latest/config/environment/overview/#dependencies) pages in the Hatch documentation for more information (if necessary).
+9. Update the `Source code` link at the top to the CLI repository link (if necessary).
 10. Change `GitHub` in the [`Deployment`](#deployment) section to `GitLab` or `Codeberg` and update the link to the corresponding Tags page (if necessary).
 11. Update the `Issues` and `Source` fields in the [pyproject.toml](pyproject.toml) file with their respective repository-related links (if necessary).
-12. Delete the [TEMPLATE.md](TEMPLATE.md) file.
-13. Delete the [`Getting Started`](#getting-started) section.
+12. Remove `hatch-cli-demo/` from the [.gitignore](.gitignore) file.
+13. Delete the [TEMPLATE.md](TEMPLATE.md) file.
+14. Delete the [`Getting Started`](#getting-started) section.
 
 ## Usage
 
