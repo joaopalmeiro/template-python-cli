@@ -2,11 +2,13 @@
 
 [![Hatch project](https://img.shields.io/badge/%F0%9F%A5%9A-Hatch-4051b5.svg)](https://github.com/pypa/hatch)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+[![Checked with mypy](https://www.mypy-lang.org/static/mypy_badge.svg)](https://mypy-lang.org/)
 
 Opinionated Python template for new CLIs.
 
 - [Source code](https://github.com/joaopalmeiro/template-python-cli)
 - [PyPI package](https://pypi.org/project/template-python-cli/)
+- [Snyk Advisor](https://snyk.io/advisor/python/template-python-cli)
 
 ## Getting Started
 
