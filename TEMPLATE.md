@@ -6,11 +6,16 @@
 - https://packaging.python.org/en/latest/discussions/distribution-package-vs-import-package/#how-do-distribution-package-names-and-import-package-names-compare:
   - "hyphens `-` or underscores `_`"
 - https://textual.textualize.io/how-to/package-with-hatch/
+- https://click.palletsprojects.com/en/latest/changes/
 
 ## Commands
 
 ```bash
 hatch new --cli --interactive hatch-cli-demo
+```
+
+```bash
+hatch env prune && hatch env create
 ```
 
 ## Snippets
