@@ -56,7 +56,7 @@ pyenv install && pyenv versions
 ```
 
 ```bash
-pip install hatch==1.9.3 && hatch --version
+pip install hatch==1.12.0 && hatch --version
 ```
 
 ```bash
@@ -101,6 +101,10 @@ hatch run lint
 
 ```bash
 hatch run format
+```
+
+```bash
+hatch project metadata
 ```
 
 ## Deployment
