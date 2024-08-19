@@ -41,11 +41,11 @@ path = "src/template_python_cli/__init__.py"
 
 [tool.hatch.envs.default]
 detached = false
-dependencies = ["ruff==0.3.0", "mypy==1.8.0"]
+dependencies = ["ruff==0.5.6", "mypy==1.8.0"]
 
 [tool.hatch.envs.default.scripts]
-lint = ["- ruff check .", "mypy"]
-format = ["- ruff check --fix .", "ruff format ."]
+lint = ["- ruff check", "mypy"]
+format = ["- ruff check --fix", "ruff format"]
 
 [tool.hatch.build]
 packages = ["src/template_python_cli"]

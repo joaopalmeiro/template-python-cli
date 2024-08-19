@@ -1,12 +1,14 @@
 .DS_Store
-.ruff_cache/
 __pycache__/
 .hatch/
 
-# https://hatch.pypa.io/latest/config/build/#output-directory
-dist/
-
-# https://github.com/python/mypy/blob/v1.8.0/docs/source/config_file.rst#incremental-mode
+# https://github.com/python/mypy/blob/v1.11.1/docs/source/config_file.rst#incremental-mode
 .mypy_cache/
+
+# https://github.com/astral-sh/ruff/blob/0.5.6/crates/ruff_workspace/src/options.rs#L39-L53
+.ruff_cache/
+
+# https://github.com/pypa/hatch/blob/hatch-v1.12.0/docs/config/build.md#output-directory
+dist/
 
 hatch-cli-demo/
